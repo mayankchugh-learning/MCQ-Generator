@@ -162,3 +162,7 @@ cython_debug/
 #.idea/
 mcqgenrator.egg-info
 mcqgenrator
+.DS_Store
+experiment/mcqgen_sunny.ipynb
+experiment/mcqgen_old.ipynb
+experiment/mcqgen_sunnny-del.ipynb
