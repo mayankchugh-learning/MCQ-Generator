@@ -3,6 +3,8 @@ pip install ipykernel
 Explain
 conda create -p env python=3.8 -y
 
+conda activate /Users/mayankchugh/gitRepos/mayankchugh.learning/MCQ-Generator/mcqvenv
+
 source activate ./env
 
 pip list
