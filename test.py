@@ -4,12 +4,12 @@ import traceback
 import pandas as pd
 from dotenv import load_dotenv
 from src.mcqgenrator.utils import read_file,get_table_data
-#from langchain.callbacks import get_openai_callback
+from langchain.callbacks import get_openai_callback
 from src.mcqgenrator.mcqgenrator import generate_evaluate_chain
 from src.mcqgenrator.logger import logging
-from langchain_community.llms import OpenAI
-from langchain_community.chat_models import ChatOpenAI
-from langchain_community.callbacks import get_openai_callback
+#from langchain_community.llms import OpenAI
+#from langchain_community.chat_models import ChatOpenAI
+#from langchain_community.callbacks import get_openai_callback
 
 projectPath = os.getenv("PATH_TO_PROJECT")
 
