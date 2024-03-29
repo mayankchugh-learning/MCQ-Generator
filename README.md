@@ -48,3 +48,9 @@ git remote add origin https://github.com/mayankchugh-learning/MCQ-Generator.git
 git push -f origin main
    
 pip install -r requirements.txt 
+
+pip show mcqgenerator
+
+pip install -U langchain-community
+
+streamlit run StreamlitAPP.py --server.port 8080
